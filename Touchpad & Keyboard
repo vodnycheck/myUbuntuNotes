@@ -1,0 +1,13 @@
+// Tip: copy paste works if select text in some window and then put the cursor in some place and press the middle mouse button
+
+// Probably, fix of some bug... Making two-finger horizontal scroll inverted, as well as the vertical.
+// Just add the line to some startup file
+synclient HorizScrollDelta=-100
+
+// Install gnome-tweaks which is extremelly usefull
+sudo apt update
+sudo apt-get upgrade
+sudo apt install gnome-tweaks
+
+// To use special characters like ą ć, configure the compose button in the tweaks application, 
+// then use the combinations https://en.wikipedia.org/wiki/Compose_key#Common_compose_combinations
